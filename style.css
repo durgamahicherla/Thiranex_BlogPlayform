@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:linear-gradient(135deg,#141e30,#243b55);
+    min-height:100vh;
+    padding:30px;
+    color:white;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.blog-form{
+    background:rgba(255,255,255,0.1);
+    padding:25px;
+    border-radius:20px;
+    backdrop-filter:blur(10px);
+    margin-bottom:30px;
+}
+
+.blog-form input,
+.blog-form textarea{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    margin-bottom:15px;
+    outline:none;
+}
+
+.blog-form textarea{
+    height:150px;
+    resize:none;
+}
+
+.blog-form button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#00e5ff;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.blog-card{
+    background:rgba(255,255,255,0.1);
+    padding:25px;
+    border-radius:20px;
+    margin-bottom:25px;
+    backdrop-filter:blur(10px);
+}
+
+.blog-card h2{
+    margin-bottom:10px;
+}
+
+.blog-date{
+    font-size:14px;
+    color:#ccc;
+    margin-bottom:15px;
+}
+
+.blog-actions{
+    margin-top:20px;
+}
+
+.blog-actions button{
+    margin-right:10px;
+    padding:10px 15px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.like-btn{
+    background:#ff4081;
+    color:white;
+}
+
+.delete-btn{
+    background:#ff1744;
+    color:white;
+}
+
+.comment-section{
+    margin-top:20px;
+}
+
+.comment-section input{
+    width:70%;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    outline:none;
+}
+
+.comment-section button{
+    padding:10px 15px;
+    border:none;
+    border-radius:10px;
+    background:#00c853;
+    color:white;
+    cursor:pointer;
+}
+
+.comment{
+    margin-top:10px;
+    background:rgba(255,255,255,0.1);
+    padding:10px;
+    border-radius:10px;
+}
+
+@media(max-width:768px){
+
+    .comment-section input{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+}
